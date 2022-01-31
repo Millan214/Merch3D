@@ -1,0 +1,32 @@
+/* CABECERA */    
+#nav-toggle-button span {
+    background-color: white;
+}
+
+#eliminaPadding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#tamanioIcono{
+    height: 50px;
+    width: 50px;
+}
+
+/* CUERPO */   
+
+.contenedor-formulario{
+    padding-top: 100px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.formulario-centrar{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+

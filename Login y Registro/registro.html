@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/bootstrap.bundle.min.js" defer></script>
+  <title>Cabecera</title>
+</head>
+<body>
+  <!--CABECERA-->
+  <div class="container-fluid" id="eliminaPadding">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark  border-3 border-bottom border-primary">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand text-light"><img src="./img/tierra.svg" alt="globo terraqueo" id="tamanioIcono"></a>
+        <a href="#" class="navbar-brand text-light">Merchan3D</a>
+        <button type="button" class="navbar-toggler btn btn-light" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" id="nav-toggle-button">
+          <span class="navbar-toggler-icon iconColor"></span>
+        </button>
+        <div id="MenuNavegacion" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-3">
+            <li class="nav-item"><a class= "nav-link text-light" href="#">Inicio</a></li>
+            <li class="nav-item"><a class= "nav-link text-light" href="#">Productos</a></li>
+            <li class="nav-item"><a class= "nav-link text-light" href="#">Nosotros</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item"><a class= "nav-link text-light" href="#">Inicio</a></li>
+          <li class="nav-item"><a class= "nav-link text-light" href="#">Registro</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--CUERPO-->
+  <div class="contenedor-formulario">
+    <div class="formulario-centrar">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Registro</legend>
+          <span>Usuario: <input type="text" id="idText"></span>
+          <span>Contraseña: <input type="password" id="idPw"></span>
+          <span>Repetir contraseña: <input type="password" id="idPwrepetir"></span>
+          <span>Email: <input type="email" id="idMail"></span>
+          <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
