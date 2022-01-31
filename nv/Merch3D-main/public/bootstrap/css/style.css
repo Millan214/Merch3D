@@ -1,0 +1,13 @@
+#nav-toggle-button span {
+    background-color: white;
+}
+
+#eliminaPadding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#tamanioIcono{
+    height: 50px;
+    width: 50px;
+}
