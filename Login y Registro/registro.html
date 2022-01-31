@@ -36,19 +36,21 @@
     </nav>
   </div>
   <!--CUERPO-->
-  <div class="contenedor-formulario">
-    <div class="formulario-centrar">
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Registro</legend>
-          <span>Usuario: <input type="text" id="idText"></span>
-          <span>Contraseña: <input type="password" id="idPw"></span>
-          <span>Repetir contraseña: <input type="password" id="idPwrepetir"></span>
-          <span>Email: <input type="email" id="idMail"></span>
-          <input type="submit" value="Enviar">
-        </fieldset>
-      </form>
-    </div>
+  <div class="text-center">
+    <form action="#" method="get" style="max-width: 400px; margin:auto;">
+      <img src="./img/tierra.svg" alt="logo tierra" height="72" class="mt-4 mb-3">
+      <h1 class="mb-3 h3">Registro</h1>
+      <input type="email" id="emailInputId" class="form-control" placeholder="Email" required autofocus>
+      <input type="password" id="pwInputId" class="form-control" placeholder="Contraseña" required>
+      <input type="password" id="pwRepeticionInputId" class="form-control" placeholder="Repite Contraseña" required>
+      <input type="text" id="nombreInputId" class="form-control" placeholder="Nombre" required>
+      <input type="text" id="apellidosInputId" class="form-control" placeholder="Apellidos" required>
+      <input type="date" id="dateInputId" class="form-control" required>
+      <label for="recuerdameID"><input type="checkbox" value="recuerdame">Recuerdame</label>
+      <div class="mt-3">
+        <button class="btn btn-lg btn-primary">Enviar</button>
+      </div>
+    </form>
   </div>
 </body>
 </html>
