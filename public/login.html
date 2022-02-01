@@ -15,7 +15,7 @@
 </head>
 <body>
   <!--CABECERA-->
-  <div class="container-fluid" id="eliminaPadding">
+  <div class="container-fluid custom-header" id="eliminaPadding">
     <nav class="navbar navbar-expand-md navbar-light bg-dark  border-3 border-bottom border-primary">
       <div class="container-fluid">
         <a href="#" class="navbar-brand text-light"><img src="./bootstrap/img/tierra.svg" alt="globo terraqueo" id="tamanioIcono"></a>
@@ -25,7 +25,7 @@
         </button>
         <div id="MenuNavegacion" class="collapse navbar-collapse">
           <ul class="navbar-nav ms-3">
-            <li class="nav-item"><a class= "nav-link text-light" href="#">Inicio</a></li>
+            <li class="nav-item"><a class= "nav-link text-light" href="./index.html">Inicio</a></li>
             <li class="nav-item"><a class= "nav-link text-light" href="#">Productos</a></li>
             <li class="nav-item"><a class= "nav-link text-light" href="#">Nosotros</a></li>
           </ul>
@@ -33,15 +33,15 @@
       </div>
       <div class="d-flex">
         <ul class="navbar-nav ms-3">
-          <li class="nav-item"><a class= "nav-link text-light" href="#">Inicio</a></li>
-          <li class="nav-item"><a class= "nav-link text-light" href="#">Registro</a></li>
+          <li class="nav-item"><a class= "nav-link text-light" href="./login.html">Login</a></li>
+          <li class="nav-item"><a class= "nav-link text-light" href="./registro.html">Registro</a></li>
         </ul>
       </div>
     </nav>
   </div>
   <!--CUERPO-->
-  <div class="text-center">
-    <form action="#" method="get" style="max-width: 400px; margin:auto;">
+  <div class="text-center h100vh">
+    <form action="#" method="get" class="pt-10p" style="max-width: 400px; margin:auto;">
       <img src="./bootstrap/img/tierra.svg" alt="logo tierra" height="72" class="mt-5 mb-3">
       <h1 class="mb-3 h3">Login</h1>
       <span for="emailId" class="visually-hidden">Email</span><input type="email" id="emailInputId" class="form-control" placeholder="Email" required autofocus>
