@@ -48,6 +48,14 @@ a {
   color: white !important;
 }
 
+.pt-10p {
+  padding-top: 10%;
+}
+
+.h100vh {
+  height: 100vh;
+}
+
 .fw-bold {
   font-weight: bold;
 }
