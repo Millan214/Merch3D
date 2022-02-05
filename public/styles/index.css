@@ -45,7 +45,7 @@ html {
 a {
   text-decoration: none !important;
   font-size: 30px !important;
-  color: white !important;
+  color: white;
 }
 
 .pt-10p {
@@ -128,6 +128,10 @@ footer .footer-icon {
   background: white;
   -webkit-transition: width .5s ease;
   transition: width .5s ease;
+}
+
+.footer-link {
+  font-size: 25px;
 }
 
 .custom-header {
