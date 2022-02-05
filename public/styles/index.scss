@@ -33,6 +33,11 @@ a{
     height: 100vh;
 }
 
+.container-center{
+    display: flex;
+    justify-content: center !important;
+}
+
 //UTILS
 .fw-bold{
     font-weight: bold;

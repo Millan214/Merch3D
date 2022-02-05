@@ -57,4 +57,99 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.productos-destacados-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.productos-destacados-container h1, button {
+  text-align: center;
+}
+
+.productos-destacados-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.productos-destacados-container .producto-img {
+  width: calc(50% - 20px);
+  height: 500px;
+  margin: 30px 10px 30px 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.productos-destacados-container .producto-img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.productos-destacados-container .producto-img div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 20px 10px 20px;
+}
+
+.productos-destacados-container .producto-img div span {
+  color: white !important;
+}
+
+.btn-ver-productos {
+  border: none;
+  font-size: 20px !important;
+  font-weight: bold;
+  color: white;
+  background: black;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid black;
+}
+
+.btn-ver-productos:hover {
+  color: white;
+}
+
+.btn-ver-productos::before {
+  content: "ver productos";
+}
 /*# sourceMappingURL=body.css.map */

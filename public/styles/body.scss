@@ -45,3 +45,69 @@
     display: flex;
     flex-direction: column;
 }
+
+.productos-destacados-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productos-destacados-container h1, button{
+    text-align: center;
+}
+
+.productos-destacados-container div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productos-destacados-container .producto-img{
+    width: calc(50% - 20px);
+    height: 500px;
+    margin: 30px 10px 30px 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: all .2s;
+}
+
+.productos-destacados-container .producto-img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.productos-destacados-container .producto-img div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 10px 20px;
+}
+
+.productos-destacados-container .producto-img div span{
+    color: white !important;
+}
+
+.btn-ver-productos{
+    border: none;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid black;
+}
+
+.btn-ver-productos:hover{
+    color: white;
+}
+
+.btn-ver-productos::before{
+    content: "ver productos";
+}
