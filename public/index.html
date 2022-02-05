@@ -5,22 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="styles/index.css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="./js/index.js" defer></script>
         <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="./bootstrap/css/style.css">
+        <script src="./js/index.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
         <script src="./bootstrap/js/bootstrap.bundle.min.js" defer></script>
         <script src="./js/texto-animado.js" defer></script>
+        <script src="./js/header.js" defer></script>
     </head>
     <body>
         <div class="custom-header container-fluid" id="eliminaPadding">
 
-            <nav class="navbar navbar-expand-md navbar-light bg-dark  border-3 border-bottom border-primary">
+            <nav class="cabecera navbar navbar-expand-md navbar-light border-3">
         
               <div class="container-fluid">
         
-                <a href="#" class="navbar-brand text-light"><img src="./bootstrap/img/tierra.svg" alt="globo terraqueo" id="tamanioIcono"></a>
-                <a href="#" class="navbar-brand text-light">Merchan3D</a>
+                <a href="#" class="navbar-brand enlace-nav"><img src="./bootstrap/img/tierra.svg" alt="globo terraqueo" id="tamanioIcono"></a>
+                <a href="#" class="navbar-brand fw-bold enlace-nav">Merchan3D</a>
         
                 <button type="button" class="navbar-toggler btn btn-light" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" id="nav-toggle-button">
                   <span class="navbar-toggler-icon iconColor"></span>
@@ -28,9 +29,9 @@
                 <div id="MenuNavegacion" class="collapse navbar-collapse">
                   <ul class="navbar-nav ms-3">
         
-                    <li class="nav-item"><a class= "nav-link text-light" href="./index.html">Inicio</a></li>
-                    <li class="nav-item"><a class= "nav-link text-light" href="#">Productos</a></li>
-                    <li class="nav-item"><a class= "nav-link text-light" href="#">Nosotros</a></li>
+                    <li class="nav-item"><a class= "nav-link enlace-nav" href="./index.html">Inicio</a></li>
+                    <li class="nav-item"><a class= "nav-link enlace-nav" href="#">Productos</a></li>
+                    <li class="nav-item"><a class= "nav-link enlace-nav" href="#">Nosotros</a></li>
         
                   </ul>
                 </div>
@@ -40,8 +41,8 @@
               <div class="d-flex">
                 <ul class="navbar-nav ms-3">
         
-                  <li class="nav-item"><a class= "nav-link text-light" href="./login.html">Login</a></li>
-                  <li class="nav-item"><a class= "nav-link text-light" href="./registro.html">Registro</a></li>
+                  <li class="nav-item"><a class= "nav-link enlace-nav" href="./login.html">Login</a></li>
+                  <li class="nav-item"><a class= "nav-link enlace-nav" href="./registro.html">Registro</a></li>
         
                 </ul>
               </div>
@@ -100,26 +101,41 @@
             <div class="footer-icon">🦶</div>
             -->
             <div class="footer-wrapper">
-                <a href="">Merchan<span class="fw-bold">3D</span></a>
                 <a href="">
+                  <div class="">
+                    Merchan<span class="fw-bold">3D</span>
+                  </div>
+                  <div class="a-underline"></div>
+                </a>
+                <a class="footer-link" href="">
+                  <div class="footer-link">
                     TWITTER
-                    <div class="a-underline"></div>
+                  </div>
+                  <div class="a-underline"></div>
                 </a>
-                <a href="">
+                <a class="footer-link" href="">
+                  <div class="footer-link">
                     YOUTUBE
-                    <div class="a-underline"></div>
+                  </div>
+                  <div class="a-underline"></div>
                 </a>
-                <a href="">
+                <a class="footer-link" href="">
+                  <div class="footer-link">
                     INSTAGRAM
-                    <div class="a-underline"></div>
+                  </div>
+                  <div class="a-underline"></div>
                 </a>
-                <a href="">
+                <a class="footer-link" href="">
+                  <div class="footer-link">
                     LINKEDIN
-                    <div class="a-underline"></div>
+                  </div>
+                  <div class="a-underline"></div>
                 </a>
-                <a href="" class="fw-bold">
-                    PRIVACY POLICY
-                    <div class="a-underline"></div>
+                <a class="footer-link" href="">
+                  <div class="footer-link fw-bold">
+                    PRIVACIDAD
+                  </div>
+                  <div class="a-underline"></div>
                 </a>
             </div>
         </footer>

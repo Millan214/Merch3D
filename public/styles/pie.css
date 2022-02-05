@@ -59,4 +59,8 @@ footer .footer-icon {
   -webkit-transition: width .5s ease;
   transition: width .5s ease;
 }
+
+.footer-link {
+  font-size: 25px;
+}
 /*# sourceMappingURL=pie.css.map */
