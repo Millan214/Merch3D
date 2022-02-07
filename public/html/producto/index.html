@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles/css/index.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/style.css">
+    <script src="../../js/index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="../../bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../../js/texto-animado.js" defer></script>
+    <script src="../../js/header.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .debug {
+            background: white;
+        }
+
+        #planetario {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .titulo-producto {
+            color: black;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%);
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            font-size: 50px;
+            width: 50%;
+            text-align: center;
+            mix-blend-mode: exclusion;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="custom-header container-fluid" id="eliminaPadding">
+
+        <nav class="cabecera navbar navbar-expand-md navbar-light border-3">
+
+            <div class="container-fluid">
+
+                <a href="#" class="navbar-brand enlace-nav"><img src="../../bootstrap/img/tierra.svg"
+                        alt="globo terraqueo" id="tamanioIcono"></a>
+                <a href="#" class="navbar-brand fw-bold enlace-nav">Merchan3D<div class="a-underline"></div></a>
+
+                <button type="button" class="navbar-toggler btn btn-light" data-bs-toggle="collapse"
+                    data-bs-target="#MenuNavegacion" id="nav-toggle-button">
+                    <span class="navbar-toggler-icon iconColor"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3">
+
+                        <li class="nav-item"><a class="nav-link enlace-nav" href="../../index.html">Inicio<div
+                                    class="a-underline">
+                                </div></a></li>
+                        <li class="nav-item"><a class="nav-link enlace-nav" href="../listadoProductos.html">Productos
+                                <div class="a-underline"></div>
+                            </a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link enlace-nav" href="../nosotros.html">Nosotros<div class="a-underline">
+                                </div></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="d-flex">
+                <ul class="navbar-nav ms-3">
+
+                    <li class="nav-item"><a class="nav-link enlace-nav" href="../login.html">Login<div
+                                class="a-underline">
+                            </div>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link enlace-nav" href="../registro.html">Registro<div
+                                class="a-underline">
+                            </div></a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+    </div>
+
+    <div class="wrapper-planetario">
+        <div class="wrapper-planetario">
+            <h1 class="titulo-producto">destructor estelar</h1>
+            <div id="planetario"></div>
+        </div>
+    </div>
+    <div class="section-center review-product-section">
+        <h1>Destructor estelar</h1>
+        <h2>30 €</h2>
+        <h3>(3) en stock</h3>
+        <p>
+            Replica 1x3600 de la mítica nave destructor de la saga de Star Wars. El producto viene ya montado y con la
+            firma del diseñador original de la pelicula Star Wars IV.
+        </p>
+        <a 
+        class="button-box button-box-horizontal">
+          comprar
+        </a>
+    </div>
+
+    <footer id="footer">
+        <!--
+                <div class="footer-icon">🦶</div>
+                -->
+        <div class="footer-wrapper">
+            <a href="">
+                <div class="">
+                    Merchan<span class="fw-bold">3D</span>
+                </div>
+                <div class="a-underline"></div>
+            </a>
+            <a class="footer-link" href="">
+                <div class="footer-link">
+                    TWITTER
+                </div>
+                <div class="a-underline"></div>
+            </a>
+            <a class="footer-link" href="">
+                <div class="footer-link">
+                    YOUTUBE
+                </div>
+                <div class="a-underline"></div>
+            </a>
+            <a class="footer-link" href="">
+                <div class="footer-link">
+                    INSTAGRAM
+                </div>
+                <div class="a-underline"></div>
+            </a>
+            <a class="footer-link" href="">
+                <div class="footer-link">
+                    LINKEDIN
+                </div>
+                <div class="a-underline"></div>
+            </a>
+            <a class="footer-link" href="">
+                <div class="footer-link fw-bold">
+                    PRIVACIDAD
+                </div>
+                <div class="a-underline"></div>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./three.js"></script>
+    <script type="module" src="./GLTFLoader.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>

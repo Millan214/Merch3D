@@ -159,4 +159,9 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.review-product-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /*# sourceMappingURL=body.css.map */

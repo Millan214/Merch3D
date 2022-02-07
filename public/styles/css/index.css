@@ -149,6 +149,7 @@ footer .footer-icon {
 
 .custom-header {
   position: fixed;
+  z-index: 10;
 }
 
 .main-content {
@@ -313,6 +314,11 @@ footer .footer-icon {
      object-fit: cover;
 }
 
+.review-product-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .button-box {
   color: black;
   border: 2px solid black;
@@ -326,7 +332,6 @@ footer .footer-icon {
   display: inline-block;
   padding: 10px 20px 10px 20px;
   text-align: center;
-  margin: 10px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
