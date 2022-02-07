@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/index.js" defer></script>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap/css/style.css">
+  <script src="./bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="./js/texto-animado.js" defer></script>
+  <title>Login</title>
+</head>
+
+<body>
+  <!--CABECERA-->
+  <div class="container-fluid custom-header" id="eliminaPadding">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark  border-3 border-bottom border-primary">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand text-light"><img src="./bootstrap/img/tierra.svg" alt="globo terraqueo"
+            id="tamanioIcono"></a>
+        <a href="#" class="navbar-brand text-light">Merchan3D<div class="a-underline"></div></a>
+        <button type="button" class="navbar-toggler btn btn-light" data-bs-toggle="collapse"
+          data-bs-target="#MenuNavegacion" id="nav-toggle-button">
+          <span class="navbar-toggler-icon iconColor"></span>
+        </button>
+        <div id="MenuNavegacion" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-3">
+            <li class="nav-item"><a class="nav-link text-light" href="./index.html">Inicio<div class="a-underline"></div></a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="./listadoProductos.html">Productos<div class="a-underline"></div></a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">Nosotros<div class="a-underline"></div></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex">
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item"><a class="nav-link text-light" href="./login.html">Login<div class="a-underline"></div></a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="./registro.html">Registro<div class="a-underline"></div></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--CUERPO-->
+  <div class="text-center h100vh">
+    <form action="#" method="get" class="pt-10p" style="max-width: 400px; margin:auto;">
+      <img src="./bootstrap/img/tierra.svg" alt="logo tierra" height="72" class="mt-5 mb-3">
+      <h1 class="mb-3 h3">Login</h1>
+      <span for="emailId" class="visually-hidden">Email</span><input type="email" id="emailInputId" class="form-control"
+        placeholder="Email" required autofocus>
+      <span for="pwId" class="visually-hidden">Contraseña</span><input type="password" id="pwInputId"
+        class="form-control" placeholder="Contraseña" required>
+      <label for="recuerdameID"><input type="checkbox" value="recuerdame">Recuerdame</label>
+      <div class="mt-3">
+        <button class="btn btn-lg btn-primary mb-5">Enviar</button>
+      </div>
+    </form>
+    <!--PIE-->
+  </div>
+  <footer id="footer">
+    <!--
+    <div class="footer-icon">🦶</div>
+    -->
+    <div class="footer-wrapper">
+      <a href="">
+        <div class="">
+          Merchan<span class="fw-bold">3D</span>
+        </div>
+        <div class="a-underline"></div>
+      </a>
+      <a class="footer-link" href="">
+        <div class="footer-link">
+          TWITTER
+        </div>
+        <div class="a-underline"></div>
+      </a>
+      <a class="footer-link" href="">
+        <div class="footer-link">
+          YOUTUBE
+        </div>
+        <div class="a-underline"></div>
+      </a>
+      <a class="footer-link" href="">
+        <div class="footer-link">
+          INSTAGRAM
+        </div>
+        <div class="a-underline"></div>
+      </a>
+      <a class="footer-link" href="">
+        <div class="footer-link">
+          LINKEDIN
+        </div>
+        <div class="a-underline"></div>
+      </a>
+      <a class="footer-link" href="">
+        <div class="footer-link fw-bold">
+          PRIVACIDAD
+        </div>
+        <div class="a-underline"></div>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
