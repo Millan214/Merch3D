@@ -19,7 +19,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../img/background.png");
+  background-image: url("../../img/background.png");
 }
 
 .landing-section h1 {
@@ -151,5 +151,12 @@
 
 .btn-ver-productos::before {
   content: "ver productos";
+}
+
+.tamanioProducto {
+  width: 100% !important;
+  height: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=body.css.map */

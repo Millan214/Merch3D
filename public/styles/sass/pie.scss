@@ -1,0 +1,45 @@
+@import "variables";
+
+footer{
+    background: $base-color;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+footer * {
+    color: $font-light;
+}
+
+footer a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer .footer-icon {
+    background: $third-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.a-underline{
+    height: 2px;
+    width: 0;
+    background: white;
+    transition: width .5s ease;
+}
+
+.footer-link{
+    font-size: 25px;
+}
