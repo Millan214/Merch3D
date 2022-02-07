@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,UAAU,CAAV,mBAAU;EACN,GAAG;IACC,iBAAiB,EAAE,CAAC;;EAExB,GAAG;IACC,iBAAiB,EAAE,CAAC;;EAExB,EAAE;IACE,iBAAiB,EAAE,GAAG",
     "sources": [
-        "animaciones.scss"
+        "../sass/animaciones.scss"
     ],
     "names": [],
     "file": "animaciones.css"

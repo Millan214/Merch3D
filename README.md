@@ -1,2 +1,2 @@
 # Hola amigos
-## Pequeño tuto de git
+## Las cosas han cambiado por aquí 😏

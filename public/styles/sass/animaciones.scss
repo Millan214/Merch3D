@@ -1,0 +1,11 @@
+@keyframes anim-text-dimension{
+    50%{
+        stroke-dashoffset: 0;
+    }
+    80%{
+        stroke-dashoffset: 0;
+    }
+    to{
+        stroke-dashoffset: -10;
+    }
+}

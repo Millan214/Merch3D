@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,QAAQ,EAAE,KAAK;CAClB",
     "sources": [
-        "header.scss"
+        "../sass/header.scss"
     ],
     "names": [],
     "file": "header.css"
